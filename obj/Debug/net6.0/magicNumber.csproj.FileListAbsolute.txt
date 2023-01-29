@@ -1,0 +1,15 @@
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\bin\Debug\net6.0\magicNumber.exe
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\bin\Debug\net6.0\magicNumber.deps.json
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\bin\Debug\net6.0\magicNumber.runtimeconfig.json
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\bin\Debug\net6.0\magicNumber.dll
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\bin\Debug\net6.0\magicNumber.pdb
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.csproj.AssemblyReference.cache
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.AssemblyInfoInputs.cache
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.AssemblyInfo.cs
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.csproj.CoreCompileInputs.cache
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.dll
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\refint\magicNumber.dll
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.pdb
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\magicNumber.genruntimeconfig.cache
+C:\Users\Romain\Desktop\dev\cs\magicNumber\magicNumber\obj\Debug\net6.0\ref\magicNumber.dll
