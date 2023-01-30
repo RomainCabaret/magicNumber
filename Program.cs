@@ -6,17 +6,21 @@ namespace FirstProgramme
     {
         static void StartGame(int heal)
         {
+            const int NUMBER_MIN = 1;
+            const int NUMBER_MAX = 10;
+
+
             Random rnd = new Random();
-            int magicNumber = rnd.Next(1, 10);
+            int magicNumber = rnd.Next(NUMBER_MIN, NUMBER_MAX + 1);
 
             do
             {
                 Console.WriteLine($"\nVies restantes : {heal}");
-                Console.Write($"Rentez un nombre entre 1 et 10 : ");
+                Console.Write($"Rentez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
 
-                int userAnswerInt = 0;
+                int userAnswerInt = NUMBER_MIN - 1;
 
-                while (userAnswerInt < 1 || userAnswerInt > 10)
+                while (userAnswerInt < NUMBER_MIN || userAnswerInt > NUMBER_MAX) // check if the number entered by the user is correct
                 {
                     string userAnswerStr = Console.ReadLine();
 
@@ -24,14 +28,14 @@ namespace FirstProgramme
                     {
                         userAnswerInt = int.Parse(userAnswerStr);
 
-                        if (userAnswerInt <= 0)
+                        if (userAnswerInt < NUMBER_MIN || userAnswerInt > NUMBER_MAX)
                         {
-                            throw new Exception("[Error] : incorrect the name must be between 1 and 10");
+                            throw new Exception($"[Error] : incorrect the name must be between {NUMBER_MIN} and {NUMBER_MAX}");
                         }
                     }
                     catch
                     {
-                        Console.Write($"Rentez un nombre entre 1 et 10 : ");
+                        Console.Write($"Rentez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
                     }
                 }
 
@@ -42,14 +46,13 @@ namespace FirstProgramme
                 }
                 else if(userAnswerInt < magicNumber)
                 {
-                    Console.WriteLine($" --Le nombre magique est plus grand-- ");
-                    heal--;
+                    Console.WriteLine($" --Le nombre magique est plus grand-- ");       
                 }
                 else
                 {
                     Console.WriteLine($" --Le nombre magique est plus petit-- ");
-                    heal--;
                 }
+                heal--;
             }
             while (heal != 0);
 
