@@ -16,7 +16,7 @@ namespace FirstProgramme
             do
             {
                 Console.WriteLine($"\nVies restantes : {heal}");
-                Console.Write($"Rentez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
+                Console.Write($"Rentrez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
 
                 int userAnswerInt = NUMBER_MIN - 1;
 
@@ -35,7 +35,7 @@ namespace FirstProgramme
                     }
                     catch
                     {
-                        Console.Write($"Rentez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
+                        Console.Write($"Rentrez un nombre entre {NUMBER_MIN} et {NUMBER_MAX} : ");
                     }
                 }
 
